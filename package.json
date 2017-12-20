@@ -1,0 +1,20 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/main.js -o dist/bundle.js -f cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yileliu/rollup.git"
+  },
+  "author": "neal_liu@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yileliu/rollup/issues"
+  },
+  "homepage": "https://github.com/yileliu/rollup#readme"
+}
