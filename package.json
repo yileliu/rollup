@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/main.js -o dist/bundle.js -f cjs"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yileliu/rollup/issues"
   },
-  "homepage": "https://github.com/yileliu/rollup#readme"
+  "homepage": "https://github.com/yileliu/rollup#readme",
+  "devDependencies": {
+    "rollup-plugin-json": "^2.3.0"
+  }
 }
